@@ -1,0 +1,134 @@
+* {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    /*display: flex;*/
+    /*justify-content: center;*/
+    /*align-items: center;*/    
+}
+
+body {
+    background: url("images/pexels-danielabsi-952670.jpg");
+    background-size: cover;
+    color: aliceblue;
+}
+
+.form-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 500px;
+    border: 4px solid orange;
+    border-radius: 5px;
+    padding: 20px 40px 20px 20px;
+    box-shadow: -30px 30px 30px rgba(7, 7, 7, 0.842);
+    font-weight: bold;
+    background: rgba(0, 0, 0, 0.4);
+
+}
+
+.form-container h2 {
+    font-size: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 40px 0;
+    color: orange;
+    
+}
+
+.pa input {
+    font-size: 16px;
+    padding: 5px 5px;
+    width: 100%;
+    border: 0;
+    border-radius: 5px;
+    outline: none;
+    outline: none;
+
+    /* border: 1px solid orange; */
+}
+
+.pa p {
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+.radio p {
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+.form-container textarea {
+    font-size: 16px;
+    padding: 15px 10px;
+    width: 100%;
+    border: 0;
+    border-radius: 5px;
+    outline: none;
+    max-height: 100px;
+    resize: vertical;
+    min-height: 40px;
+    outline: none;
+    /* border: 1px solid orange; */
+}
+
+#email {
+    font-size: 13px;
+    margin: 2px;
+    /* height: 35px; */
+    color: rgb(231, 156, 15);
+    font-weight: bold;
+}
+
+.form-container .radio {
+    font-size: 20px;
+    margin: 15px 0;
+}
+
+.female {
+    margin-left: 20px;
+}
+
+.aboutme p {
+    font-size: 20px;
+    margin: 15px 0;
+}
+
+button {
+    width: 100px;
+    height: 40px;
+    background-color: orange;
+    color: rgb(7, 7, 7);
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+button:hover {
+    color: rgb(240, 237, 234);
+}
+
+.pa input:focus, textarea:focus {
+    box-shadow: 0 0 4px rgba(255, 102, 0, 0.5);
+    border: 2px solid orange;
+}
+
+.radio {
+    accent-color: orange;
+    border-radius: 5px;
+}
+
+label {
+    font-size: 15px;
+}
+
+hr {
+    border: 1px solid orange;
+    border-radius: 5px;
+
+}
+
+.htwo {
+    margin-top: 10px;
+}
